@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <property name="LOG_HOME" value="${catalina.base}/logs/core" />
+    <property name="LOG_HOME" value="${catalina.base}/logs/core"/>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -42,9 +42,9 @@
     </appender>
 
     <root level="INFO">
-        <appender-ref ref="STDOUT" />
-        <appender-ref ref="SPRINGBOOT_INFO" />
-        <appender-ref ref="SPRINGBOOT_ERROR" />
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="SPRINGBOOT_INFO"/>
+        <appender-ref ref="SPRINGBOOT_ERROR"/>
     </root>
 
 </configuration>
